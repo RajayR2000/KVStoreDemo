@@ -52,7 +52,27 @@ This will delete the key-value pair from the storage.
 
 _____________________
 
+### Time-To-Live
 
+The TTL property can be satisfied with the help of the **schedule()** function of the Timer class.
 
+It takes two arguments.
 
+`schedule(task to be performed , time after which the task is to be performed in milliseconds)`
+The task to be performed can be mentioned by over-riding run() of the TimerTask.
 
+For example:  ` schedule(task , 1000)` 
+
+Here the mentioned task is performed after 1 second.
+
+Code 
+```
+public class ClassName extends TimerTask
+{
+    @Override
+    public void run() {
+        //TASK
+    }
+
+}
+```
