@@ -8,11 +8,11 @@ Clone this repository to any desired location on your system:
 
 `https://github.com/RajayR2000/KVStore.git` 
 
-or download as a zip file and extract
+or download as a zip file and extract.
 
 
 ###### Step 2:
-After creating a new class and importing the kvstore(or you can use the EndUser class that I have created in the default package).
+Create a new class and import the kvstore package(or you can use the EndUser class that I have created in the default package).
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
